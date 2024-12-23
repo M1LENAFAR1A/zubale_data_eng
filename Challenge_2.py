@@ -53,7 +53,7 @@ final_df = merged_df[[
 })
 
 final_df.to_csv('results/fixed_order_full_information.csv', index=False)
-print("✅ File 'fixed_order_full_information.csv' saved successfully!")
+print("File 'fixed_order_full_information.csv' saved successfully!")
 
 max_orders_date = orders['created_date'].value_counts().idxmax()
 
