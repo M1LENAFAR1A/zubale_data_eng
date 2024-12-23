@@ -1,4 +1,4 @@
-#!/Users/milenafaria/Documents/GitHub/zubale_data_eng/venv/bin/python3.9
+#!/Users/milenafaria/Documents/GitHub/zubale_data_eng/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

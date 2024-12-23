@@ -5,9 +5,9 @@ import pandas as pd  # Para manipulação de dados em tabelas
 
 # 2. Carregando os arquivos CSV
 # Lendo o arquivo de produtos
-products_df = pd.read_csv('products.csv')
+products_df = pd.read_csv('data/products.csv')
 # Lendo o arquivo de pedidos
-orders_df = pd.read_csv('orders.csv')
+orders_df = pd.read_csv('data/orders.csv')
 
 # 3. Realizando o Merge entre as tabelas
 # Unimos os dados usando a coluna 'product_id' de orders e 'id' de products
@@ -42,6 +42,6 @@ final_df.columns = [
 ]
 
 # 6. Salvando o resultado em um novo arquivo CSV
-final_df.to_csv('order_full_information.csv', index=False)
+final_df.to_csv('results/order_full_information.csv', index=False)
 
 print("Arquivo 'order_full_information.csv' criado com sucesso!")

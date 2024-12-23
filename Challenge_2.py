@@ -7,8 +7,8 @@ import json
 # =========================
 
 # 1. Carregar os dados dos arquivos CSV
-products = pd.read_csv('products.csv')
-orders = pd.read_csv('orders.csv')
+products = pd.read_csv('data/products.csv')
+orders = pd.read_csv('data/orders.csv')
 
 # 2. Mesclar os dados
 merged_df = pd.merge(
@@ -49,7 +49,7 @@ final_df = merged_df[[
 })
 
 # 8. Salvar o resultado
-final_df.to_csv('fixed_order_full_information.csv', index=False)
+final_df.to_csv('results/fixed_order_full_information.csv', index=False)
 print("✅ Arquivo 'fixed_order_full_information.csv' salvo com sucesso!")
 
 # =========================
@@ -84,6 +84,6 @@ kpi_data = {
 }
 
 kpi_df = pd.DataFrame(kpi_data)
-kpi_df.to_csv('kpi_product_orders.csv', index=False)
+kpi_df.to_csv('results/kpi_product_orders.csv', index=False)
 
 print("✅ Arquivo 'kpi_product_orders.csv' salvo com sucesso!")
