@@ -1,5 +1,5 @@
-kpi_name,kpi_value
-Max Orders Date,'2024-12-06'
-Most Demanded Product,Product_5
-Most Demanded Product Total Sales (BRL),891.8000000000001
-Top 3 Categories,Categoria não disponível
+metric,value
+max_orders_date,'2024-12-06'
+most_demanded_product,Product_5
+most_demanded_product_total_sell,891.8000000000001
+top_3_categories,"Shirts, Jackets, Pants"
