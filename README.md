@@ -2,20 +2,20 @@
 
 ## 🚀 **1. Purpose of the Code**
 
-O objetivo deste projeto é **processar e analisar dados de produtos e pedidos de forma eficiente** usando **Python e SQL**. O projeto está dividido em três partes principais:
+The goal of this project is to **efficiently process and analyze product and order data** using **Python and SQL**. The project is divided into three main parts:
 
-- **Challenge_1.py**: Mescla e consolida dados dos arquivos `products.csv` e `orders.csv`.  
-- **Challenge_2.py**: Converte preços de **BRL** para **USD** utilizando uma **API**.  
-- **Challenge_3.ipynb**: Executa consultas **SQL** para extrair insights estratégicos.  
+- **Challenge_1.py**: Merges and consolidates data from `products.csv` and `orders.csv`.  
+- **Challenge_2.py**: Converts prices from **BRL** to **USD** using an **API**.  
+- **Challenge_3.ipynb**: Executes **SQL** queries to extract strategic insights.  
 
 ---
 
-## 🔑 **2. Uso do `config.json` para Gerenciamento de Chave de API**
+## 🔑 **2. Using `config.json` for API Key Management**
 
-A chave da API foi armazenada no arquivo `config.json` para evitar expor informações sensíveis diretamente no código.  
+The API key was stored in the `config.json` file to prevent sensitive information from being hardcoded into the scripts.  
 
-**Exemplo de Estrutura:**  
+**Example Structure:**  
 ```json
 {
-    "api_key": "SUA_CHAVE_API"
+    "api_key": "YOUR_API_KEY"
 }
