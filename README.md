@@ -60,8 +60,6 @@ SQL queries were executed in **Jupyter Notebooks** for better organization. Each
 
 ---
 
-## 7. Code Purpose and Design Decisions Documentation
-
 ### 7.1 Libraries Used and Reasons
 - **Pandas:**
    - **Why:** Pandas is the standard library for **data reading and manipulation** in Python.
