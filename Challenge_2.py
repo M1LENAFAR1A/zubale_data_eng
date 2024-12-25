@@ -13,6 +13,8 @@ merged_df = pd.merge(
     suffixes=('_order', '_product')
 )
 
+print(merged_df.head())
+
 merged_df['total_price_br'] = merged_df['quantity'] * merged_df['price']
 
 try:
