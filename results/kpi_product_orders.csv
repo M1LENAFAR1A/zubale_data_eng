@@ -1,5 +1,5 @@
 metric,value
 max_orders_date,'2024-12-06'
 most_demanded_product,Product_5
-most_demanded_product_total_sell,891.8000000000001
-top_3_categories,"Shirts, Jackets, Pants"
+most_demanded_product_total_sell,$144.15 USD
+top_3_categories,"1. Shirts, 2. Jackets, 3. Pants"
