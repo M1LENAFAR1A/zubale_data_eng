@@ -42,7 +42,7 @@ else:
 
 if exchange_rate and isinstance(exchange_rate, (int, float)):
 
-    merged_df['total_price_us'] = merged_df['total_price_br'] / exchange_rate
+    merged_df['total_price_us'] = (merged_df['total_price_br'] / exchange_rate).round(2)
     
 else:
     print("Error: Invalid exchange rate.")
